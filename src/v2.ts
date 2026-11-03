@@ -1,6 +1,9 @@
-export const greetings = ()=>{
-    console.log("hello Ibtasam")
-    
-}
+// literal type
 
-greetings()
+// basic union
+
+
+// literal union
+
+
+// object union
