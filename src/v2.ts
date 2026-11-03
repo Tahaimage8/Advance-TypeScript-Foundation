@@ -16,3 +16,24 @@ const userRole : Role = "user"
 
 console.log(userRole)
 // object union
+
+
+type Admin = {
+    id: number,
+    role: "Admin",
+    privileges: string[]
+}
+
+type Member = {
+    id : number,
+    role : "Member",
+    plans: {}
+}
+
+type User = Admin | Member
+
+const user : User= {
+    id: 442,
+    role: "Member",
+    plans: "vip"
+}
