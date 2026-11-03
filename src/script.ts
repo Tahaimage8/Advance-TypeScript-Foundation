@@ -1,3 +1,4 @@
-import { greetings } from "./v1-config";
+import { greetings } from "./v1-config.js";
+
 
 greetings()
