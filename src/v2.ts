@@ -9,5 +9,10 @@ const id : Identity = "123"
 
 // literal union
 
+type Role = "admin" | "user"
 
+
+const userRole : Role = "user"
+
+console.log(userRole)
 // object union
