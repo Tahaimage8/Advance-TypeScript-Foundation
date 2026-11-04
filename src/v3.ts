@@ -17,7 +17,7 @@
 //? type Alias is more connected to literals unions types primitives
 
 
-
+//* type
 type ID = number;
 
 
@@ -38,4 +38,21 @@ const user : User ={
     id: 12,
     name : "Ta",
     role : "Admin",
+}
+
+//? Interface
+
+interface food{
+    species : string,
+
+}
+
+
+interface Cat extends food{
+    breed: string,
+}
+
+const cat : Cat= {
+breed: "normal",
+species: "Cat"
 }
