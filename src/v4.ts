@@ -16,8 +16,17 @@ const num: number =123;
 let nothing : void;
 something2 = nothing
 
-
 // nullish types 
+
+interface User{ 
+    name : string,
+
+}
+
+type loginUser = User | null;
+
+const loggedUsed: loginUser= null;
+
 
 // unit type
 
