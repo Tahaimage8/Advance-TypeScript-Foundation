@@ -28,9 +28,4 @@ type loginUser = User | null;
 const loggedUsed: loginUser= null;
 
 
-// unit type
-
-// sub0type of unit type
-
-
 // bottom type
